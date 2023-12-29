@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Unicons-->
+    <link rel="stylesheet" 
+    href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <a href="#"class="active"style="--i:1">Home</a>
+            <a href="#about"style="--i:2">About</a>
+            <a href="#services"style="--i:3">Service</a>
+            <a href="#portfolio"style="--i:4">Portfolio</a>
+            <a href="#"style="--i:5">Skill</a>
+        </nav>
+    </header>
+    <div class="hero-container">
+        <div class="info-side">
+           <h3 class="part-1">Hello, It's Me</h3> 
+           <h1>Rutika Saste</h1>
+           <h3 class="part-2">And I'm a <span id ="changing-text">Computer Engineer</span></h3>
+           <p>I'm a BE computer engineering student.
+            My passion lies at the intersection of coding , teamwork, and management .</p>
+            <!--Social Media Icons-->
+            <a href="#"><i class="uil uil-facebook-f"style="--i:7"></i></a>
+            <a href="#"><i class="uil uil-twitter"style="--i:8"></i></a>
+            <a href="#"><i class="uil uil-instagram"style="--i:9"></i></a>
+            <a href="#"><i class="uil uil-linkedin"style="--i:10"></i></a>
+            <br/>
+            <button class="btn">Download CV</button>
+        </div>
+        <div class="mine-img">
+            <img src="mine3-img.jpg" alt="My Photo">
+        </div>
+    </div>
+    <!--======= About US  ====== -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about1-img.jpg" alt="my pic"/>
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Front-end Developer</h3>
+            <p>I'm a passionate front-end developer with expertise in HTML, CSS, and JavaScript.
+            My goal is to create responsive and user-friendly web experiences. </p>
+            <button>Read More</button>
+        </div>
+    </section>
+    <section class ="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="service-box">
+            <i class="uil uil-brackets-curly"></i>
+            <h3>Web Development</h3>
+            <p>I'm a passionate web developer with a flair for creating elegant and functional websites.
+            My journey in the world of coding began with HTML, CSS, and JavaScript .</p>  
+            <button>Read More</button>
+            </div>
+        <div class="service-box">
+            <i class="uil uil-arrow"></i>
+            <h3>Software Developer</h3>
+            <p>I'm a dedicated software developer passionate about creating robust 
+            and efficient solutions. With a solid foundation in programming languages like C, C++, and Python.</p>  
+            <button>Read More</button>
+            </div>
+        <div class="service-box">
+            <i class="uil uil-desktop-cloud-alt"></i>
+            <h3>Computer Engineer</h3>
+            <p>I'm a dynamic individual on a journey to explore the vast world of computer engineering. 
+                Currently pursuing a Bachelor's degree in Computer Engineering.</p>  
+            <button>Read More</button>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio"id="portfolio">
+        <h2 class="heading"id="portfolioHeading">My <span>Projects</span></h2>
+        <div class ="portfolio-container">
+            <div class="portfolio-box">
+                <img src ="project-1-img.jpeg"alt="myProject"/>
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>
+                        It is Web Development Project. I created one basic Gym Website using HTML,CSS & JS.
+                    </p>
+                    <a href=""><i class="uil uil-link"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src ="Project2-img.jpg"alt="myProject"/>
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>
+                        It is Web Development Project. I created one basic Hostel Booking Website using HTML,CSS & JS.
+                    </p>
+                    <a href=""><i class="uil uil-link"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src ="project3-img.jpg"alt="myProject"/>
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>
+                        It is Web Development Project. I created one basic Gym Website using HTML,CSS & JS.
+                    </p>
+                    <a href=""><i class="uil uil-link"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!--Linking Javascript-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
